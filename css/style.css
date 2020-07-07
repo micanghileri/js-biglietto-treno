@@ -89,3 +89,7 @@ h2 {
     color: #eb4034;
     font-size: 20px;
 }
+
+#areainfo p .identity {
+    text-transform: capitalize;
+}
