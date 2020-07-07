@@ -18,5 +18,5 @@ if (eta<18) {
 }
 
 document.getElementById('costotck').innerHTML = result;
-document.getElementById('eta-pass').innerHTML = eta;
-document.getElementById('km-pass').innerHTML = km;
+document.getElementById('eta-pass').innerHTML = eta + ' anni';
+document.getElementById('km-pass').innerHTML = km + ' km';

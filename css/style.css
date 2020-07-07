@@ -12,7 +12,7 @@ body {
 
 header {
     height: 100px;
-    background-color: rgb(240, 235, 235);
+    background-color: #eb4034;
     display: flex;
     align-items: center;
 }
@@ -32,13 +32,13 @@ header {
 h2 {
     font-size: 30px;
     margin: 60px 0 0 50px;
-    color: #000000;
+    color: #363636;
 }
 
 
 #ticket {
     height: 300px;
-    width: 600px;
+    width: 550px;
     margin: 50px 0 0 50px;
     background-color: #f2f2f2;
     border: 1px solid lightgrey;
@@ -49,25 +49,33 @@ h2 {
 
 #ticket:hover {
     cursor: pointer;
-    box-shadow: 0 0 12px lightblue;
-    border: 1px solid lightblue;
 }
 
 #areaintestazione {
     height: 25%;
-    background-color: rgb(43, 45, 51);
+    background-color: #eb4034;
     display: flex;
     align-items: center;
 }
 
 #areaintestazione img {
-    height: 90%;
+    height: 70%;
     padding-left: 20px;
 }
 
 #areainfo {
     height: 75%;
     padding: 20px 0;
+    position: relative;
+    background: rgb(245,245,245);
+    background: radial-gradient(circle, rgba(245,245,245,1) 59%, rgba(231,231,231,0.8547794117647058) 100%);
+}
+
+#areainfo img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 250px;
 }
 
 #areainfo p {
@@ -78,5 +86,6 @@ h2 {
 }
 
 #areainfo p span {
-    color: red;
+    color: #eb4034;
+    font-size: 20px;
 }
