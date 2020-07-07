@@ -5,10 +5,6 @@ var percMin = 20;
 var percAnz = 40;
 var result;
 
-console.log(km);
-console.log(eta);
-console.log(tot);
-
 result = tot + '€';
 
 if (eta<18) {
