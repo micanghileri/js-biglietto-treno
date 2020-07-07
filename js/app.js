@@ -9,12 +9,14 @@ console.log(km);
 console.log(eta);
 console.log(tot);
 
-result = 'Nessuno sconto per te. Peccato. Tot. ' + tot + '€';
+result = tot + '€';
 
 if (eta<18) {
-    result = 'Hai meno di 18 anni. Super! Tot. ' + (tot-(tot*percMin)/100) + '€';
+    result = (tot-(tot*percMin)/100) + '€';
 } else if (eta>65) {
-    result = 'L\'età non sempre è un limite. Eccoti uno sconto. Tot.' + (tot-(tot*percAnz)/100); + '€';
+    result = (tot-(tot*percAnz)/100) + '€';
 }
 
 document.getElementById('costotck').innerHTML = result;
+document.getElementById('eta-pass').innerHTML = eta;
+document.getElementById('km-pass').innerHTML = km;
